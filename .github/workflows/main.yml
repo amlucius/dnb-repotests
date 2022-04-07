@@ -20,7 +20,7 @@ jobs:
       - 
         name: Executes repo sync
         id: databricks_repo_sync
-        uses: bkvarda/databricks-cli-github-action@main
+        uses: amlucius/databricks-cli-github-action@main
         with:
           databricks-host: ${{ secrets.DATABRICKS_HOST }}
           databricks-token: ${{ secrets.DATABRICKS_TOKEN }}
